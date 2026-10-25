@@ -113,7 +113,7 @@ $f = $editar ? $editar : array('id' => '', 'codigo' => '', 'nombre' => '', 'cate
   <div class="row">
     <div class="col-md-8">
       <div class="panel panel-default">
-        <div class="panel-heading"><strong>Inventario de productos</strong> <span class="badge"><?= count($productos) ?></span></div>
+        <div class="panel-heading"><strong>Inventario de productos — v2</strong> <span class="badge"><?= count($productos) ?></span></div>
         <table class="table table-striped table-condensed">
           <thead><tr><th>Código</th><th>Producto</th><th>Categoría</th><th class="text-right">Precio</th><th class="text-right">Stock</th><th></th></tr></thead>
           <tbody>
